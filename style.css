@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 10px;
+}
+
+h1 {
+    color: blue;
+}
+
+button {
+    background-color: green;
+    /* Düğmenin arka plan rengini yeşil olarak belirler */
+    color: white;
+    /* Düğme metnini beyaz olarak belirler */
+    width: 100px;
+    /* Düğmenin genişliğini 100 piksel olarak belirler */
+    height: 30px;
+    /* Düğmenin yüksekliğini 30 piksel olarak belirler */
+    cursor: pointer;
+    /* Fare imlecinin üzerine geldiğinde şeklini işaretçiye dönüştürür */
+    border-radius: 8px;
+    /* Düğmenin kenarlarını yuvarlatır */
+    border-style: none;
+    /* Düğmenin kenarlığını kaldırır */
+    transition: transform 0.3s, background-color 0.3s, color 0.3s;
+    /* Geçiş animasyonu ekler */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    /* Butonun üzerine gelindiğinde gölge efekti ekler */
+}
+
+button:hover {
+    transform: scale(1.02);
+    background-color: darkgreen;
+    color: black
+}
